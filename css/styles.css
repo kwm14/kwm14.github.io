@@ -1,0 +1,27 @@
+/* Navigation */
+
+.p-navigation__image {
+  padding-top: 1rem;
+}
+
+/* Background image */
+
+.landing {
+      background-image: url('../assets/landing_header.png');
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      height: 100vh;
+}
+
+/* Section */
+
+.p-strip {
+  padding-top: 1.5rem;
+}
+
+ /*Buttons */
+
+.p-button--brand {
+    margin-top: 32px;
+    width: auto;
+}
