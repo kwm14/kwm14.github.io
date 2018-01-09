@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="37.5" cy="37.5" r="37.5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="75" height="75" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-001">
+            <g id="Icon">
+                <use id="Oval" stroke="#F6A623" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <g id="Computer" transform="translate(13.000000, 16.000000)" fill="#F6A623">
+                    <path d="M44.022,37.195 L25.5,37.195 L25.5,41.015 L31.48,41.015 C32.031,41.015 32.477,41.46 32.477,42.011 C32.477,42.562 32.031,43.007 31.48,43.007 L17.526,43.007 C16.975,43.007 16.529,42.562 16.529,42.011 C16.529,41.46 16.975,41.015 17.526,41.015 L23.506,41.015 L23.506,37.195 L4.983,37.195 C2.236,37.195 0,34.666 0,31.557 L0,5.637 C0,2.529 2.236,0 4.983,0 L44.022,0 C46.77,0 49.006,2.529 49.006,5.637 L49.006,31.557 C49.006,34.666 46.77,37.195 44.022,37.195 L44.022,37.195 Z M4.983,35.202 L44.022,35.202 C45.627,35.202 46.93,33.651 47,31.715 L2.006,31.715 C2.076,33.651 3.379,35.202 4.983,35.202 L4.983,35.202 Z M44.022,1.993 L4.983,1.993 C3.335,1.993 1.993,3.627 1.993,5.637 L1.993,29.722 L47.013,29.722 L47.013,5.637 C47.013,3.627 45.671,1.993 44.022,1.993 L44.022,1.993 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
