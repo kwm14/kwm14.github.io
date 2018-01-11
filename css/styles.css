@@ -1,7 +1,9 @@
 /* Navigation */
 
-.p-navigation__image {
-  padding-top: 1rem;
+.nav-logo {
+  max-width: 100%;
+  height: 2rem;
+  display: block;
 }
 
 /* Background image */
