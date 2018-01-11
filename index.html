@@ -16,13 +16,23 @@
 
 <body>
 
-  <header class="p-navigation__image landing">
+  <header id="navigation" class="p-navigation">
     <div class="row">
-      <div class="col-12">
-        <a class="p-navigation__link" href="#">
-                    <img src="assets/logo.svg" width="98" alt="" class="p-navigation__image" />
-                </a>
+      <div class="p-navigation__banner">
+        <div class="p-navigation__logo">
+          <a href="http://karldesigns.co.uk">
+              <img src="assets/logo.svg" alt="" class="nav-logo" />
+            </a>
+        </div>
+        <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+        <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
       </div>
+      <nav class="p-navigation__nav" role="menubar">
+        <span class="u-off-screen">
+            <a href="#main-content">Jump to main content</a>
+          </span>
+      </nav>
+  </header>
       <section class="p-strip is-deep u-vertically-center">
         <div class="u-align--center">
           <div class="col-11 prefix-1">
