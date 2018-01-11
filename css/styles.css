@@ -6,6 +6,10 @@
   display: block;
 }
 
+.p-navigation__image {
+  padding-top: 1rem;
+}
+
 /* Background image */
 
 .landing {
