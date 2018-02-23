@@ -10,9 +10,37 @@
 
   <title>karldesigns | Visual Designer</title>
   <link rel="icon" href="assets/favicon.png" sizes="32x32">
-  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-1.6.1.min.css" />
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-1.6.6.min.css" />
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function() {
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+</script>
 
 <body>
 
@@ -21,7 +49,7 @@
       <div class="p-navigation__banner">
         <div class="p-navigation__logo">
           <a href="http://karldesigns.co.uk">
-              <img src="assets/logo.svg" alt="" class="nav-logo" />
+              <img src="assets/logo.svg" alt="" class="p-navigation__image" />
             </a>
         </div>
         <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
@@ -31,20 +59,132 @@
         <span class="u-off-screen">
             <a href="#main-content">Jump to main content</a>
           </span>
+        <ul class="p-navigation__links" role="menu">
+          <li class="p-navigation__link" role="menuitem"><a href="#WORK">MY WORK</a></li>
+          <li class="p-navigation__link" role="menuitem"><a href="#CONTACT">CONTACT</a></li>
+        </ul>
       </nav>
   </header>
-      <section class="p-strip is-deep u-vertically-center landing">
-       <div class="row" class="p-navigation__image">
-        <div class="u-align--center">
-          <div class="col-11 prefix-1">
-            <p>HEY!</p>
-            <h2>I'm working on my new site. I'll be back shortly. Meanwhile you can see my skills on the court.</h2>
-            <a href="https://dribbble.com/karl_w_moyce" class="p-button--brand" target="_blank">SEE ME DRIBBBLE</a>
+  <section class="p-strip is-deep">
+    <div class="row u-equal-height u-vertically-center">
+      <div class="col-7">
+        <p>HELLO, IM KARL</p>
+        <h2>I love design and drinking coffee. Currently pushing pixels at Ubuntu.</h2>
+        <a href="#WORK" class="p-button">SEE MY WORK</a>
+      </div>
+      <div class="col-5 u-align--right">
+        <img src="file:///Users/Karlos/Projects/code-school/portfolio/assets/hero_header_1.png" class="u-align--right" alt="Hero ">
+      </div>
+    </div>
+  </section>
+  <section class="p-strip is-deep u-no-padding--bottom about">
+    <div class="row ">
+      <div class="col-7">
+        <p>ABOUT ME</p>
+        <h2>I love the challenge of finding innovative and unique solutions.</h2>
+      </div>
+    </div>
+    </div>
+    <section class="p-strip is-deep">
+      <div class="row">
+        <div class="col-4">
+          <div class="p-heading-icon">
+            <div class="p-heading-icon__header">
+              <img class="p-heading-icon__img" src="https://kwm14.github.io/assets/responsive.svg" alt="Responsive pictogram">
+              <h3 class="p-heading-icon__title">Responsive</h3>
+            </div>
+            <p>I have gained a lot of experience designing responsively across a wide range of devices to provide an optimal viewing experience.</p>
           </div>
         </div>
+        <div class="col-4">
+          <div class="p-heading-icon">
+            <div class="p-heading-icon__header">
+              <img class="p-heading-icon__img" src="https://kwm14.github.io/assets/interaction.svg " alt="Interaction pictogram">
+              <h3 class="p-heading-icon__title">Interaction</h3>
+            </div>
+            <p>A key area of focus in my design process is to to guide the user, as this is essential in creating engaging and effective experiences.</p>
+          </div>
         </div>
-      </section>
+        <div class="col-4">
+          <div class="p-heading-icon">
+            <div class="p-heading-icon__header">
+              <img class="p-heading-icon__img" src="https://kwm14.github.io/assets/concepting.svg" alt="Concepting pictogram">
+              <h3 class="p-heading-icon__title">Concepting</h3>
+            </div>
+            <p>Interests in many different fields has helped me to stay curious, open and flexible. These attributes have been essential in concepting digital ideas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="p-strip is-bordered is-deep" id="WORK">
+    <div class="row">
+      <div class="col-12">
+        <p>MY WORK</p>
+        <h2>Just some of my design projects.</h2>
+        <ul class="p-inline-images u-align--left">
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src="file:///Users/Karlos/Projects/code-school/portfolio/assets/vanilla_portfolio.svg" alt="Vanilla">
+          </li>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src="file:///Users/Karlos/Projects/code-school/portfolio/assets/maas_portfolio.svg" alt="MAAS">
+          </li>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src="file:///Users/Karlos/Projects/code-school/portfolio/assets/landscape_portfolio.svg" alt="Landscape">
+          </li>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src="file:///Users/Karlos/Projects/code-school/portfolio/assets/k8_portfolio.svg" alt="Kubernetes">
+          </li>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src="file:///Users/Karlos/Projects/code-school/portfolio/assets/king_portfolio.svg" alt="King Games">
+          </li>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src="file:///Users/Karlos/Projects/code-school/portfolio/assets/riverisland_portfolio.svg" alt="River Island">
+          </li>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src="file:///Users/Karlos/Projects/code-school/portfolio/assets/l&g_portfolio.svg" alt="Legal & General">
+          </li>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src="file:///Users/Karlos/Projects/code-school/portfolio/assets/evening_standard_portfolio.svg" alt="Evening Standard">
+          </li>
+        </ul>
+      </div>
     </div>
+  </section>
+  <section class="p-strip is-deep" id="CONTACT">
+    <div class="row">
+      <div class="u-equal-height">
+        <div class="col-8 p-divider__block">
+          <p>CONTACT</p>
+          <h2>Say hello.</h2>
+          <p>Don't be shy, I'd love to work with you. Send me an email to: <a href="mailto:karlwaghorn.moyce@gmail.com" target="_top">karlwaghorn.moyce@gmail.com</a></p>
+        </div>
+        <div class="col-4 p-divider__block">
+          <ul class="p-list--divided u-no-margin--top">
+            <li class="p-list__item is-ticked" style="background-image: url('file:///Users/Karlos/Projects/code-school/portfolio/assets/dribbble.svg'); padding-left: 2.125rem; padding-top: 1rem;"> <a href="https://dribbble.com/karl_w_moyce" class="p-link--soft "> Dribbble&nbsp;› </a>
+            </li>
+            <li class="p-list__item is-ticked" style="background-image: url('https://assets.ubuntu.com/v1/61d83c7e-icon-github.svg'); padding-left: 2.125rem; padding-top: 1rem;"> <a href="https://github.com/kwm14" class="p-link--soft"> GitHub&nbsp;› </a>
+            </li>
+            <li class="p-list__item is-ticked" style="background-image: url('file:///Users/Karlos/Projects/code-school/portfolio/assets/linkedin.svg'); padding-left: 2.125rem; padding-top: 1rem;"> <a href="https://uk.linkedin.com/in/karl-waghorn-moyce-10872199" class="p-link--soft"> LinkedIn&nbsp;› </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  <footer class="p-footer">
+    <div class="row">
+      <div class="p-footer__nav-col col-6" <p>&copy; 2018 karldesigns.</p>
+      </div>
+      <div class="p-footer__nav-col col-6">
+        <ul class="p-footer__links u-align--right u-no-padding--top">
+          <li class="p-footer__item">
+            <img src="assets/logo.svg" alt="#" class="footer-logo">
+          </li>
+        </ul>
+        <span class="u-off-screen">
+          <a href="#">Go to the top of the page</a>
+        </span>
+      </div>
+    </div>
+  </footer>
 </body>
-
-</html>
