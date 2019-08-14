@@ -10,8 +10,9 @@
 
   <title>karldesigns | Senior Visual Designer</title>
   <link rel="icon" href="https://github.com/kwm14/kwm14.github.io/blob/master/favicon.png?raw=true" sizes="32x32">
-  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-1.6.6.min.css" />
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-2.0.1.min.css" />
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300&display=swap" rel="stylesheet">
 </head>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -48,165 +49,178 @@
     <div class="row">
       <div class="p-navigation__banner">
         <div class="p-navigation__logo">
-          <a href="http://karldesigns.co.uk">
-            <img src="assets/logo.svg" alt="" class="p-navigation__image" />
-          </a>
+          <div class="p-navigation__logo">
+            <a class="p-navigation__link" href="#">
+              <img class="p-navigation__image" src="assets/karldesigns-logo.svg" alt="">
+            </a>
+          </div>
+          <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+          <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
         </div>
-        <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-        <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
-      </div>
-      <nav class="p-navigation__nav" role="menubar">
-        <span class="u-off-screen">
-          <a href="#main-content">Jump to main content</a>
-        </span>
-        <ul class="p-navigation__links" role="menu">
-          <li class="p-navigation__link" role="menuitem"><a href="#WORK">MY WORK</a></li>
-          <li class="p-navigation__link" role="menuitem"><a href="#CONTACT">CONTACT</a></li>
-          <li class="p-navigation__link" role="menuitem"><a href="https://medium.com/@karlwaghorn.moyce" target="_blank">BLOG</a></li>
-        </ul>
-      </nav>
+        <nav class="p-navigation__nav" role="menubar">
+          <span class="u-off-screen">
+            <a href="#main-content">Jump to main content</a>
+          </span>
+          <ul class="p-navigation__links" role="menu">
+            <li class="p-navigation__link" role="menuitem"><a href="#WORK">Projects</a></li>
+            <li class="p-navigation__link" role="menuitem"><a href="https://medium.com/@karlwaghorn.moyce" target="_blank">Blog</a></li>
+            <li class="p-navigation__link" role="menuitem"><a href="#CONTACT">Contact</a></li>
+          </ul>
+        </nav>
   </header>
-  <section class="p-strip is-deep">
-    <div class="row u-equal-height u-vertically-center">
-      <div class="col-7">
-        <p>HELLO, IM KARL</p>
-        <h2>I love design and drinking coffee. Currently pushing pixels at Ubuntu.</h2>
-        <a href="#WORK" class="p-button">SEE MY WORK</a>
+
+  <section class="p-strip u-image-position">
+    <div class="row u-vertically-center">
+      <div class="col-6 ">
+        <h4 class="p-muted-heading">Hello, I'm Karlos</h4>
+        <h1>I love design and drinking coffee. Currently pushing pixels at <a href="https://ubuntu.com/">Ubuntu</a></h1>
+        <a href="#WORK" class="p-button">View my projects</a>
       </div>
-      <div class="col-5 u-align--right">
-        <img src="https://github.com/kwm14/kwm14.github.io/blob/master/assets/hero_header_1.png?raw=true" class="u-align--right" alt="Hero ">
+      <div class="col-6 u-hide--small">
+        <img src="assets/illustration.svg" width="500" alt="karldesigns hero illustration">
       </div>
     </div>
   </section>
-  <section class="p-strip is-deep about">
+
+  <section class="p-strip about">
     <div class="row ">
-      <div class="col-7">
-        <p>ABOUT ME</p>
+      <div class="col-10">
+        <h4 class="p-muted-heading">About me</h4>
         <h2>I love the challenge of finding innovative and unique solutions.</h2>
       </div>
     </div>
     </div>
-    <section class="p-strip u-no-padding--bottom">
-      <div class="row">
-        <div class="col-4">
-          <div class="p-heading-icon">
-            <div class="p-heading-icon__header">
-              <img class="p-heading-icon__img" src="https://kwm14.github.io/assets/responsive.svg" alt="Responsive pictogram">
-              <h3 class="p-heading-icon__title">Responsive</h3>
-            </div>
-            <p>I have gained a lot of experience designing responsively across a wide range of devices to provide an optimal viewing experience.</p>
+    <div class="row">
+      <div class="col-4">
+        <div class="p-heading-icon">
+          <div class="p-heading-icon__header is-stacked">
+            <img class="p-heading-icon__img" src="" alt="">
+            <h3 class="p-heading-icon__title">Responsive</h3>
           </div>
-        </div>
-        <div class="col-4">
-          <div class="p-heading-icon">
-            <div class="p-heading-icon__header">
-              <img class="p-heading-icon__img" src="https://kwm14.github.io/assets/interaction.svg " alt="Interaction pictogram">
-              <h3 class="p-heading-icon__title">Interaction</h3>
-            </div>
-            <p>A key area of focus in my design process is to to guide the user, as this is essential in creating engaging and effective experiences.</p>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="p-heading-icon">
-            <div class="p-heading-icon__header">
-              <img class="p-heading-icon__img" src="https://kwm14.github.io/assets/concepting.svg" alt="Concepting pictogram">
-              <h3 class="p-heading-icon__title">Concepting</h3>
-            </div>
-            <p>Interests in many different fields has helped me to stay curious, open and flexible. These attributes have been essential in concepting digital ideas.</p>
-          </div>
+          <p>I have gained a lot of experience designing responsively across a wide range of devices to provide an optimal viewing experience.</p>
         </div>
       </div>
-    </section>
-  </section>
-
-  <section class="p-strip is-bordered is-deep" id="WORK">
-    <div class="row">
-      <div class="col-12">
-        <p>MY WORK</p>
-        <h2>Just some of my design projects.</h2>
-        <div class="p-strip is-shallow u-no-padding--bottom">
-          <div class="u-equal-height">
-            <div class="p-card col-4 u-align--center" style="background-color: #111;">
-              <a href="https://kwm14.github.io/maas.html" style="color: #ffffff;">
-                <img class="p-card__thumbnail" src="https://assets.ubuntu.com/v1/0de4fcd5-logo-maas-icon.svg" width="75" alt="MAAS">
-                <h3 class="p-card__title">Cloud application</h3>
-            </div>
-            <div class="p-card col-4 u-align--center">
-              <a href="https://kwm14.github.io/vanilla.html" style="color: #111;">
-                <img class="p-card__thumbnail" src="https://assets.ubuntu.com/v1/70041419-vanilla-framework.png" width="75" alt="Vanilla">
-                <h3 class="p-card__title">Design system</h3>
-            </div>
-            <div class="p-card col-4 u-align--center" style="background-color: #2c001e;">
-              <a href="https://kwm14.github.io/landscape.html" style="color: #ffffff;">
-                <img class="p-card__thumbnail" src="https://assets.ubuntu.com/v1/4964d639-landscape-logo.svg" width="75" alt="Landscape">
-                <h3 class="p-card__title">Management tool</h3>
-            </div>
+      <div class="col-4">
+        <div class="p-heading-icon">
+          <div class="p-heading-icon__header is-stacked">
+            <img class="p-heading-icon__img" src="" alt="">
+            <h3 class="p-heading-icon__title">Interaction</h3>
           </div>
-          <ul class="row u-align--center">
-            <ul class="col-12 prefix-1">
-              <li class="col-2 mobile-col-2 tablet-col-2">
-                <a href="https://kwm14.github.io/subiquity.html">
-                  <img src="https://raw.githubusercontent.com/kwm14/kwm14.github.io/master/assets/subiquity-portfolio.png" alt="Subiquity" />
-              </li>
-              <li class="col-2 mobile-col-2 tablet-col-2">
-                <a href="https://kwm14.github.io/king-games.html">
-                  <img src="https://raw.githubusercontent.com/kwm14/kwm14.github.io/master/assets/king_portfolio.png" alt="King" />
-              </li>
-              <li class="col-2 mobile-col-2 tablet-col-2">
-                <a href="https://kwm14.github.io/kubernetes.html">
-                  <img src="https://raw.githubusercontent.com/kwm14/kwm14.github.io/master/assets/k8_portfolio.png" alt="Kubernetes" />
-              </li>
-              <li class="col-2 mobile-col-2 tablet-col-2">
-                <a href="https://kwm14.github.io/evening-standard.html">
-                  <img src="https://raw.githubusercontent.com/kwm14/kwm14.github.io/master/assets/london_evening_standard_portfolio.png" alt="London Evening Standard" />
-              </li>
-              <li class="col-2 mobile-col-2 tablet-col-2">
-                <a href="https://kwm14.github.io/river-island.html">
-                  <img src="https://raw.githubusercontent.com/kwm14/kwm14.github.io/master/assets/riverisland_portfolio.png" alt="River Island" />
-              </li>
-            </ul>
-          </ul>
+          <p>A key area of focus in my design process is to to guide the user, as this is essential in creating engaging and effective experiences.</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="p-heading-icon">
+          <div class="p-heading-icon__header is-stacked">
+            <img class="p-heading-icon__img" src="" alt="">
+            <h3 class="p-heading-icon__title">Concepting</h3>
+          </div>
+          <p>Interests in many different fields has helped me to stay curious, open and flexible. These attributes have been essential in concepting digital ideas.</p>
         </div>
       </div>
     </div>
   </section>
-  <section class="p-strip is-deep" id="CONTACT">
+  </section>
+
+  <section class="p-strip is-bordered" id="WORK">
+    <div class="row">
+      <div class="col-12">
+        <h4 class="p-muted-heading">My projects</h4>
+        <h2>Just some of my design pieces.</h2>
+        <div class="row">
+          <!-- <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="https://assets.ubuntu.com/v1/c8d2903f-snapcraft-logo-email.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/snapcraft.html" class="p-link--soft">App store for Linux software - Senior Visual Designer</a></p>
+          </div> -->
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="https://assets.ubuntu.com/v1/746e552e-vanilla_black-orange_hex.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/vanilla.html" class="p-link--soft">Design System - Squad Lead/Designer</a></p>
+          </div>
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="https://assets.ubuntu.com/v1/ab9dcc58-maas_black-orange.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/maas.html" class="p-link--soft">Server provisioning tool - Senior Visual Designer</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="https://assets.ubuntu.com/v1/47ffe923-landscape-logo.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/landscape.html" class="p-link--soft">Cloud management tool - Visual Designer</a></p>
+          </div>
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="file:///Users/karlos/Documents/Projects/kwm14.github.io/assets/subiquity-portfolio.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/subiquity.html" class="p-link--soft">Text UI installer - Visual Designer</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="file:///Users/karlos/Documents/Projects/kwm14.github.io/assets/king_portfolio.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/king-games.html" class="p-link--soft">King Pro Challenge app - Visual/UX Designer</a></p>
+          </div>
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="https://assets.ubuntu.com/v1/47ffe923-landscape-logo.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/subiquity.html" class="p-link--soft">Text UI installer - Visual Designer</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="file:///Users/karlos/Documents/Projects/kwm14.github.io/assets/k8_portfolio.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/kubernetes.html" class="p-link--soft">Topic website - Visual Designer</a></p>
+          </div>
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="file:///Users/karlos/Documents/Projects/kwm14.github.io/assets/london_evening_standard_portfolio.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/evening-standard.html" class="p-link--soft">Digital edition app - Visual Designer</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="p-card col-6">
+            <img class="p-card__thumbnail" src="file:///Users/karlos/Documents/Projects/kwm14.github.io/assets/riverisland_portfolio.svg" alt="header image">
+            <p class="p-card__content"><a href="https://kwm14.github.io/river-island.html" class="p-link--soft">Careers website - Visual/UX Designer</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-strip" id="CONTACT">
     <div class="row">
       <div class="u-equal-height">
         <div class="col-8">
-          <p>CONTACT</p>
+          <h4 class="p-muted-heading">Contact</h4>
           <h2>Say hello.</h2>
           <p>Don't be shy, I'd love to work with you. Send me an email to: <a href="mailto:karlwaghorn.moyce@gmail.com" target="_top">karlwaghorn.moyce@gmail.com</a></p>
         </div>
-        <div class="col-4 p-divider__block">
-          <ul class="p-list--divided u-no-margin--top">
-            <li class="p-list__item is-ticked" style="background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIg%0D%0AaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0%0D%0AdHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv%0D%0AMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0%0D%0AdHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5pY29ubW9u%0D%0Ac3RyLWRyaWJiYmxlLTE8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rl%0D%0Ac2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0%0D%0Acm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8%0D%0AZyBpZD0iaWNvbm1vbnN0ci1kcmliYmJsZS0xIiBmaWxsPSIjRUE0Qzg5IiBmaWxsLXJ1bGU9Im5v%0D%0Abnplcm8iPgogICAgICAgICAgICA8cGF0aCBkPSJNMTIsMCBDNS4zNzIsMCAwLDUuMzczIDAsMTIg%0D%0AQzAsMTguNjI3IDUuMzcyLDI0IDEyLDI0IEMxOC42MjgsMjQgMjQsMTguNjI3IDI0LDEyIEMyNCw1%0D%0ALjM3MyAxOC42MjgsMCAxMiwwIFogTTIxLjg4NSwxMS40NDEgQzE5LjMxLDExLjAxOSAxNi45NDIs%0D%0AMTAuOTk2IDE0Ljc4MiwxMS4zNjggQzE0LjUzOCwxMC44MDUgMTQuMjg1LDEwLjI0MyAxNC4wMTUs%0D%0AOS42ODggQzE2LjMyNSw4LjY4OCAxOC4xOCw3LjMzIDE5LjU2Myw1LjYwNiBDMjAuOTEzLDcuMiAy%0D%0AMS43Niw5LjIyNSAyMS44ODUsMTEuNDQxIFogTTE4LjA0Myw0LjE1OSBDMTYuODM4LDUuNzEzIDE1%0D%0ALjE3NSw2Ljk0MiAxMy4wNTcsNy44MzkgQzEyLjA0MSw1Ljk3OCAxMC44NzksNC4xNjMgOS41Njks%0D%0AMi40MDEgQzEwLjM0OCwyLjIwNCAxMS4xNiwyLjA4NyAxMiwyLjA4NyBDMTQuMjc1LDIuMDg3IDE2%0D%0ALjM2OCwyLjg2NiAxOC4wNDMsNC4xNTkgWiBNNy41MjcsMy4xNjYgQzguODU4LDQuOTA4IDEwLjAz%0D%0AOCw2LjcwNCAxMS4wNjQsOC41NDcgQzguNjM0LDkuMjYyIDUuNzMzLDkuNjI5IDIuMzgsOS42NTIg%0D%0AQzMuMDcyLDYuODE3IDQuOTgxLDQuNDU5IDcuNTI3LDMuMTY2IFogTTIuMDg3LDEyIEwyLjEsMTEu%0D%0ANzQ0IEM1Ljk0OSwxMS43MzkgOS4yNjksMTEuMjk2IDEyLjA1LDEwLjQyMiBDMTIuMjgzLDEwLjg5%0D%0ANyAxMi41MDYsMTEuMzc0IDEyLjcyLDExLjg1NCBDOS4zNCwxMi45MTEgNi41NTUsMTUuMDc2IDQu%0D%0AMzgzLDE4LjMzNCBDMi45NTEsMTYuNjE1IDIuMDg3LDE0LjQwNyAyLjA4NywxMiBaIE01LjkxNiwx%0D%0AOS44MSBDNy44ODUsMTYuNzIyIDEwLjM5OCwxNC43MTIgMTMuNTE0LDEzLjc4MyBDMTQuNDQyLDE2%0D%0ALjIwMyAxNS4xMjMsMTguNjkzIDE1LjU1NywyMS4yNDMgQzEyLjIwOCwyMi41MzQgOC42MDQsMjEu%0D%0AOTA5IDUuOTE2LDE5LjgxIFogTTE3LjUwMiwyMC4yNCBDMTcuMDY0LDE3Ljg4NyAxNi40MjIsMTUu%0D%0ANTg3IDE1LjU4MiwxMy4zNDMgQzE3LjQ1OCwxMy4wNzggMTkuNTIyLDEzLjE0NyAyMS43ODEsMTMu%0D%0ANTM5IEMyMS4zNDQsMTYuMzI1IDE5Ljc1MywxOC43MzEgMTcuNTAyLDIwLjI0IFoiIGlkPSJTaGFw%0D%0AZSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+'); padding-left: 2.125rem; padding-top: 1rem;">
-              <a href="https://dribbble.com/karl_w_moyce" class="p-link--soft "> Dribbble&nbsp;› </a>
-            </li>
-            <li class="p-list__item is-ticked" style="background-image: url('https://assets.ubuntu.com/v1/61d83c7e-icon-github.svg'); padding-left: 2.125rem; padding-top: 1rem;"> <a href="https://github.com/kwm14" class="p-link--soft"> GitHub&nbsp;›
-              </a>
-            </li>
-            <li class="p-list__item is-ticked" style="background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIg%0D%0AaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0%0D%0AdHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv%0D%0AMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjIgKDQ3MzI3KSAtIGh0%0D%0AdHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5Jbi0yQy1D%0D%0ATVlLLTBwNWluLVI8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+%0D%0ACiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9r%0D%0AZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBp%0D%0AZD0iSW4tMkMtQ01ZSy0wcDVpbi1SIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTUiIGZpbGw9%0D%0AIiMwMDcxQTEiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTIyLjIyNCwwIEwxLjc3LDAgQzAu%0D%0ANzkzMzMzMzMzLDAgMCwwLjc3NDY2NjY2NyAwLDEuNzMwNjY2NjcgTDAsMjIuMjY4IEMwLDIzLjIy%0D%0ANCAwLjc5MzMzMzMzMywyNCAxLjc3LDI0IEwyMi4yMjQsMjQgQzIzLjIwMjY2NjcsMjQgMjMuOTk5%0D%0AMzMzMywyMy4yMjQgMjMuOTk5MzMzMywyMi4yNjggTDIzLjk5OTMzMzMsMS43MzA2NjY2NyBDMjMu%0D%0AOTk5MzMzMywwLjc3NDY2NjY2NyAyMy4yMDI2NjY3LDAgMjIuMjI0LDAiIGlkPSJGaWxsLTQiPjwv%0D%0AcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8cGF0aCBkPSJNNS4zMzg2NjY2Nywz%0D%0ALjMwNCBDNi40NzczMzMzMywzLjMwNCA3LjQwMTMzMzMzLDQuMjI4NjY2NjcgNy40MDEzMzMzMyw1%0D%0ALjM2OCBDNy40MDEzMzMzMyw2LjUwOCA2LjQ3NzMzMzMzLDcuNDMyNjY2NjcgNS4zMzg2NjY2Nyw3%0D%0ALjQzMjY2NjY3IEM0LjE5NTMzMzMzLDcuNDMyNjY2NjcgMy4yNzMzMzMzMyw2LjUwOCAzLjI3MzMz%0D%0AMzMzLDUuMzY4IEMzLjI3MzMzMzMzLDQuMjI4NjY2NjcgNC4xOTUzMzMzMywzLjMwNCA1LjMzODY2%0D%0ANjY3LDMuMzA0IFogTTMuNTU2LDIwLjQ1MDY2NjcgTDcuMTE5MzMzMzMsMjAuNDUwNjY2NyBMNy4x%0D%0AMTkzMzMzMyw4Ljk5NzMzMzMzIEwzLjU1Niw4Ljk5NzMzMzMzIEwzLjU1NiwyMC40NTA2NjY3IFoi%0D%0AIGlkPSJGaWxsLTYiIGZpbGw9IiNGRkZGRkUiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0i%0D%0ATTkuMzUyLDguOTk3MzMzMzMgTDEyLjc2NCw4Ljk5NzMzMzMzIEwxMi43NjQsMTAuNTYzMzMzMyBM%0D%0AMTIuODEzMzMzMywxMC41NjMzMzMzIEMxMy4yODgsOS42NjI2NjY2NyAxNC40NDkzMzMzLDguNzEz%0D%0AMzMzMzMgMTYuMTgwNjY2Nyw4LjcxMzMzMzMzIEMxOS43ODUzMzMzLDguNzEzMzMzMzMgMjAuNDUx%0D%0AMzMzMywxMS4wODQ2NjY3IDIwLjQ1MTMzMzMsMTQuMTY5MzMzMyBMMjAuNDUxMzMzMywyMC40NTA2%0D%0ANjY3IEwxNi44OTIsMjAuNDUwNjY2NyBMMTYuODkyLDE0Ljg4MDY2NjcgQzE2Ljg5MiwxMy41NTI2%0D%0ANjY3IDE2Ljg2OTMzMzMsMTEuODQ0IDE1LjA0MjY2NjcsMTEuODQ0IEMxMy4xOSwxMS44NDQgMTIu%0D%0AOTA3MzMzMywxMy4yOTEzMzMzIDEyLjkwNzMzMzMsMTQuNzg2IEwxMi45MDczMzMzLDIwLjQ1MDY2%0D%0ANjcgTDkuMzUyLDIwLjQ1MDY2NjcgTDkuMzUyLDguOTk3MzMzMzMiIGlkPSJGaWxsLTciIGZpbGw9%0D%0AIiNGRkZGRkUiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=='); padding-left: 2.125rem; padding-top: 1rem;">
-              <a href="https://uk.linkedin.com/in/karl-waghorn-moyce-10872199" class="p-link--soft"> LinkedIn&nbsp;› </a>
-            </li>
-          </ul>
+        <div class="col-4 p-divider__block u-vertically-center">
+            <div class="p-heading-icon--small">
+              <div class="p-heading-icon__header">
+                <img class="p-heading-icon__img" src="file:///Users/karlos/Documents/Projects/kwm14.github.io/assets/dribbble.svg">
+                <h5 class="p-heading-icon__title"><a href="https://dribbble.com/karl_w_moyce">Dribbble</h5>
+              </div>
+            </div>
+            <div class="p-heading-icon--small">
+              <div class="p-heading-icon__header">
+                <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/61d83c7e-icon-github.svg">
+                <h5 class="p-heading-icon__title"><a href="https://github.com/kwm14">GitHub</h5>
+              </div>
+            </div>
+            <div class="p-heading-icon--small">
+              <div class="p-heading-icon__header">
+                <img class="p-heading-icon__img" src="file:///Users/karlos/Documents/Projects/kwm14.github.io/assets/linkedin.svg">
+                <h5 class="p-heading-icon__title"><a href="https://uk.linkedin.com/in/karl-waghorn-moyce-10872199">LinkedIn</h5>
+              </div>
+            </div>
         </div>
       </div>
     </div>
   </section>
-  <footer class="p-footer">
+  <hr>
+  <footer class="p-strip is-shallow">
     <div class="row">
-      <div class="p-footer__nav-col col-6" <p>&copy; 2018 karldesigns.</p>
-      </div>
-      <div class="p-footer__nav-col col-6">
-        <ul class="p-footer__links u-align--right u-no-padding--top">
-          <li class="p-footer__item">
-            <img src="assets/logo.svg" alt="#" class="footer-logo">
-          </li>
-        </ul>
-        <span class="u-off-screen">
-          <a href="#">Go to the top of the page</a>
-        </span>
+      <div class="col-12"> © 2019 Karl Designs.<nav>
+          <ul class="p-inline-list--middot">
+            <li class="p-inline-list__item"> <a href="https://github.com/kwm14/kwm14.github.io/issues/new">Report a bug with this site</a> </li>
+            <li class="p-inline-list__item"> <a href="mailto:karlwaghorn.moyce@gmail.com">Design enquiries</a> </li>
+          </ul> <span class="u-off-screen"> <a href="#">Go to the top of the page</a> </span>
+        </nav>
       </div>
     </div>
   </footer>
