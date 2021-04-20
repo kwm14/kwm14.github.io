@@ -15,21 +15,21 @@ img {
 
 .p-button, .p-button:visited {
   background-color: #5D6FFF;
-  color: #FFFFFF;
+  color: #000;
   border: 0px;
   border-radius: 24px;
 }
 
 .p-button:hover {
   background-color: #495BED;
-  color: #FFFFFF;
+  color: #000;
 }
 
 /*About */
 
 .about {
   background-color: #5D6FFF;
-  color: #fff;
+  color: #000;
 }
 
 /*My Work */
