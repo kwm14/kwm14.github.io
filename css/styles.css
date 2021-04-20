@@ -1,26 +1,28 @@
 /*Typeface */
 font-family: 'Montserrat', sans-serif;
 
-/* Navigation */
-.p-navigation__logo {
-  margin: 0 1rem 0 0.5rem;
-}
-
 /*Hero */
 img {
     max-width: 100%;
 }
 
+/*Navigation */
+/* .p-navigation {
+  background-color: #5D6FFF;
+} */
+
 /*Buttons */
 
 .p-button, .p-button:visited {
-  background-color: #FED52E;
+  background-color: #5D6FFF;
+  color: #FFFFFF;
   border: 0px;
-  width: auto;
+  border-radius: 24px;
 }
 
 .p-button:hover {
-  background-color: #f8c701;
+  background-color: #495BED;
+  color: #FFFFFF;
 }
 
 /*About */
