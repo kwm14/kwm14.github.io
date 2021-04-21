@@ -6,30 +6,25 @@ img {
     max-width: 100%;
 }
 
-/*Navigation */
-/* .p-navigation {
-  background-color: #5D6FFF;
-} */
-
 /*Buttons */
 
 .p-button, .p-button:visited {
-  background-color: #5D6FFF;
+  background-color: #FED52E;
   color: #000;
   border: 0px;
-  border-radius: 24px;
+  border-radius: 0px;
 }
 
 .p-button:hover {
-  background-color: #495BED;
+  background-color: #FECB29;
   color: #000;
 }
 
 /*About */
 
 .about {
-  background-color: #5D6FFF;
-  color: #000;
+  background-color: #000;
+  color: #FFF;
 }
 
 /*My Work */
